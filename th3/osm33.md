@@ -13,13 +13,13 @@ Prêt pour upgrade vers Proxmox 8 (vérifié avec pve7to8)
 ## 2023-07-15 - cquest
 
 La température du SSD nvme0 monte chaque heure au delà de 60°.
-C'est dû à osm2pgsql qui fait les mises à jour sur les diff horaire ce qui provoque:
+C'est dû à osm2pgsql du CT100 qui fait les mises à jour sur les diff horaire ce qui provoque:
 - un pic d'écritures sur le SSD
 - un pic de charge CPU
 
 Le SSD étant physiquement derrière les CPU, il se prend un coup d'air chaud et chauffe lui même plus avec les écritures.
 
 FAIT:
-- **J'ai réduit le nombre de threads d'osm2pgsql de 8 à 4** pour voir si cela réduit ce pic en lissant un peu les mises à jour.
+- **J'ai réduit le nombre de threads d'osm2pgsql de 8 à 4** dans le CT100 pour voir si cela réduit ce pic en lissant un peu les mises à jour.
 
 Autre info de contexte: le datacenter TH3 n'est plus à 18° mais plutôt à 22/23°... ceci n'est pas négligeable.
