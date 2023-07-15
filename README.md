@@ -15,3 +15,7 @@ Contient tous les tickets ou tâches au sujet de l'infrastructure d'osm-fr
 Pour une vue d'ensemble des infrastructures gérées, allez à [la page du wiki FR:Serveurs OpenStreetMap France](https://wiki.openstreetmap.org/wiki/FR:Serveurs_OpenStreetMap_France) qui liste les informations sur les serveurs de l'association OpenStreetMap France et les services qu'ils proposent.
 
 Passez voir [la page du groupe technique](https://wiki.openstreetmap.org/wiki/WikiProject_France/OSM-FR/Groupes_de_travail/Technique) pour contacter l'équipe qui les gèrent (proposer votre aide, demander une place sur un serveur, offrir du matériel, ...).
+
+## Journaux de bord (test)
+
+Test du maintient d'un journal de bord par machine sous forme de fichier markdown, un fichier par machine, rangé dans un dossier par site (free, ovh, TH3, etc).
