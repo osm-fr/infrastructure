@@ -16,3 +16,9 @@ ssd-zfs plein à 97%... j'ai donc fait du ménage:
 - augmentation de la marge d'espace libre dans le script de nettoyage du cache de cyclosm... 10 -> 100G
 
 Avec ce réglage est maintenant à 89%, ce qui est bien plus safe !
+
+## 2023-07-21 - cquest
+
+**Installation du nouveau SSD SATA** de 4To sur une carte PCIe, connecté sur la port SATA de la carte mère destiné à la base au DVD
+
+Copie lancée par zfs send/recv du cache de tuiles de cyclosm
