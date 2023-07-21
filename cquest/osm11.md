@@ -22,3 +22,5 @@ Avec ce réglage est maintenant à 89%, ce qui est bien plus safe !
 **Installation du nouveau SSD SATA** de 4To sur une carte PCIe, connecté sur la port SATA de la carte mère destiné à la base au DVD
 
 Copie lancée par zfs send/recv du cache de tuiles de cyclosm
+
+Copie terminée, bascule de ssd-zfs sur le nouveau SSD, l'ancien pool est temporairement sur ssd-zfs-old
