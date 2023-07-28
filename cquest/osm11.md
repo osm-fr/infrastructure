@@ -24,3 +24,9 @@ Avec ce réglage est maintenant à 89%, ce qui est bien plus safe !
 Copie lancée par zfs send/recv du cache de tuiles de cyclosm
 
 Copie terminée, bascule de ssd-zfs sur le nouveau SSD, l'ancien pool est temporairement sur ssd-zfs-old
+
+## 2023-07-28 - cquest
+
+Remplacement de atime par relatime sur les pool ZFS, afin de limiter les écritures.
+Globalement une précision à la journée sur le dernier accès est amplement suffisante.
+Cela limitera l'usure des SSD... et la taille des snapshots donc le temps de réplication.
