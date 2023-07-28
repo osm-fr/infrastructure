@@ -23,3 +23,9 @@ FAIT:
 - **J'ai réduit le nombre de threads d'osm2pgsql de 8 à 4** dans le CT100 pour voir si cela réduit ce pic en lissant un peu les mises à jour.
 
 Autre info de contexte: le datacenter TH3 n'est plus à 18° mais plutôt à 22/23°... ceci n'est pas négligeable.
+
+## 2023-07-28 - cquest
+
+Remplacement de atime par relatime sur les pool ZFS, afin de limiter les écritures.
+Globalement une précision à la journée sur le dernier accès est amplement suffisante.
+Cela limitera l'usure des SSD... et la taille des snapshots donc le temps de réplication.
