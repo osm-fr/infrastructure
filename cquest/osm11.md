@@ -40,3 +40,12 @@ Ajout d'une IPv6 pour osm11 pour permettre à osm23-24 (les caches de tuiles) d'
 Cela permet ajouter une seconde entrée en upstream "backup" avec l'IPv6 fixe sur la config nginx d'osm23-24 qui basculera d'une fibre à l'autre en cas d'indisponibilité.
 
 Pour plus de résilience, chaque box fibre est maintenant sur une arrivée électrique différente.
+
+## 2023-08-07 - cquest
+
+**Problème sur la carte RAID**... afficheur "orange" indiquant un souci sur la batterie
+Le pool ZFS hdd-zfs était bloqué, ce qui bloquait renderd.
+Reboot hard (off/on) du serveur.
+Plus d'erreur sur l'afficheur.
+
+J'en ai profité pour augmenter le **quota pour le cache de tuiles de cyclosm à 3To** vu qu'on a maintenant 4To de SSD au lieu de 2To.
