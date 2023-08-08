@@ -29,3 +29,7 @@ Autre info de contexte: le datacenter TH3 n'est plus à 18° mais plutôt à 22/
 Remplacement de atime par relatime sur les pool ZFS, afin de limiter les écritures.
 Globalement une précision à la journée sur le dernier accès est amplement suffisante.
 Cela limitera l'usure des SSD... et la taille des snapshots donc le temps de réplication.
+
+## 2023-08-03 - jocelyn
+
+Suite à panne temporaire d'osm11/osm13, installation d'un rendu cyclosm sur le CT renderd.th3 (+ compte pgsql `cyclosm` sur osm2pgsql.th3), sans countours ni ombrages. http://tile.openstreetmap.fr a été temporairement basculé sur ce rendu le lendemain, avant que osm11 ne soit rétabli.
