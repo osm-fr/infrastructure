@@ -33,3 +33,12 @@ Cela limitera l'usure des SSD... et la taille des snapshots donc le temps de ré
 ## 2023-08-03 - jocelyn
 
 Suite à panne temporaire d'osm11/osm13, installation d'un rendu cyclosm sur le CT renderd.th3 (+ compte pgsql `cyclosm` sur osm2pgsql.th3), sans countours ni ombrages. http://tile.openstreetmap.fr a été temporairement basculé sur ce rendu le lendemain, avant que osm11 ne soit rétabli.
+
+## 2023-08-09 - jocelyn
+
+/rpool est plein, du coup nettoyage:
+  - suppression du rendu cyclosm (et tuiles) de renderd.th3
+  - suppression des fichiers de /rpool/tiles/fr/20
+  - ajout de /rpool/reservation de 20G pour garder de la place vide pour la prochaine fois
+
+La page web proxmox affiche toujours osm33 en non-connecté - un reboot risqu d'être nécessaire comme début juillet.
