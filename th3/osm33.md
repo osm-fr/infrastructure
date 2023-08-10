@@ -40,5 +40,9 @@ Suite à panne temporaire d'osm11/osm13, installation d'un rendu cyclosm sur le 
   - suppression du rendu cyclosm (et tuiles) de renderd.th3
   - suppression des fichiers de /rpool/tiles/fr/20
   - ajout de /rpool/reservation de 20G pour garder de la place vide pour la prochaine fois
+    ```
+    zfs create rpool/reservation
+    zfs set reservation=20G rpool/reservation
+    ```
 
-La page web proxmox affiche toujours osm33 en non-connecté - un reboot risqu d'être nécessaire comme début juillet.
+La page web proxmox affiche toujours osm33 en non-connecté - un reboot risque d'être nécessaire comme début juillet.
