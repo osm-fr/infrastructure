@@ -46,3 +46,7 @@ Suite à panne temporaire d'osm11/osm13, installation d'un rendu cyclosm sur le 
     ```
 
 La page web proxmox affiche toujours osm33 en non-connecté - un reboot risque d'être nécessaire comme début juillet.
+
+## 2023-08-10 - jocelyn
+
+Reboot du host avec `systemctl --force reboot`.
