@@ -13,3 +13,22 @@ rpool/ROOT/pve-1              recordsize  128K     default
 rpool/data                    recordsize  128K     default
 rpool/data/subvol-211-disk-0  recordsize  16K      local
 ```
+
+Ajout des sondes munin zfs depuis les contrib munin https://github.com/munin-monitoring/contrib/tree/master/plugins/zfs :
+
+```
+zfs_arcstats -> /etc/munin/contrib/plugins/zfs/zfs_arcstats
+zfsonlinux_stats_cachehitdtype -> /etc/munin/contrib/plugins/zfs/zfsonlinux_stats_
+zfsonlinux_stats_cachehitlist -> /etc/munin/contrib/plugins/zfs/zfsonlinux_stats_
+zfsonlinux_stats_efficiency -> /etc/munin/contrib/plugins/zfs/zfsonlinux_stats_
+zfsonlinux_stats_l2efficiency -> /etc/munin/contrib/plugins/zfs/zfsonlinux_stats_
+zfsonlinux_stats_l2utilization -> /etc/munin/contrib/plugins/zfs/zfsonlinux_stats_
+zfsonlinux_stats_utilization -> /etc/munin/contrib/plugins/zfs/zfsonlinux_stats_
+zpool_capacity -> /home/munin/zpool_capacity
+zpool_fragmentation -> /etc/munin/contrib/plugins/zfs/zpool_fragmentation
+zpool_iostat -> /etc/munin/contrib/plugins/zfs/zpool_iostat
+```
+
+Rollback à 14H41, ça ne marche pas du tout sur hdd ^^:
+
+load average: 72476.38, 23361.04, 9925.69
