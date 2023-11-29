@@ -9,3 +9,8 @@ Il contient uniquement la base PG, cope en cours (double rsync) vers le SSD SATA
 update osm2pgsql suspendus.
 
 SSD 4To NVMe à commander...
+
+## 2023-11-19 - cquest
+
+Le SSD NVMe de 2To a planté... il ne revient qu'après avoir éteint/rallumé le serveur (le reboot ne suffit pas).
+Service de retour, mais à surveiller.
