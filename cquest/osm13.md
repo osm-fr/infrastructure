@@ -16,3 +16,6 @@ update osm2pgsql suspendus.
 
 SSD 4To NVMe à commander...
 
+## 2023-11-30 - cquest
+
+Base PG migrée sur le SSD SATA, les rendus sont de retour.
