@@ -50,3 +50,9 @@ La page web proxmox affiche toujours osm33 en non-connecté - un reboot risque d
 ## 2023-08-10 - jocelyn
 
 Reboot du host avec `systemctl --force reboot`.
+
+## 2024-01-06 - cquest
+
+Mise à jour en Proxmox 8
+zpool trim sur les SSD
+Mise à jour de PG 15 > 16 sur le conteneur osm2pgsql
