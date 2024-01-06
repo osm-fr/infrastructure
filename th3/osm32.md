@@ -11,3 +11,6 @@
 - apt update / dist-upgrade (43 packages mis à jour)
 - zpool trim
 
+## 2024-01-06 - cquest
+
+Mise à jour Proxmox 8
