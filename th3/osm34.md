@@ -1,5 +1,9 @@
 # Journal de bord d'osm34
 
+## 2024-12-12 - cquest
+
+Mise à jour proxmox 8.3.1 faite et reboot.
+
 ## 2023-08-09 - jocelyn
 
 Suite à saturation du disque osm33, suppression de ~60 snapshots umap utilisé pour les backups journaliers sur osm32.
