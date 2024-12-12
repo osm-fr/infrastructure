@@ -1,5 +1,9 @@
 # Journal de bord d'osm33
 
+## 2024-12-12 - cquest
+
+Mise à jour proxmox 8.3.1 faite et reboot.
+
 ## 2023-07-14 - cquest
 
 FAIT:
