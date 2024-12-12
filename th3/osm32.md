@@ -1,5 +1,13 @@
 # Journal de bord d'osm32
 
+## 2024-12-12 - cquest
+
+osm12 était freezé depuis plusieurs jours.
+
+Il a rebooté sans problème.
+
+Mise à jour proxmox 8.3.1 faite.
+
 ## 2023-07-14 - cquest
 
 **rpool quasi saturé** (97%), besoin de faire de la place avant que ZFS ne bloque tout, il est déjà très lent et il faudrait rester en dessous de 90%
