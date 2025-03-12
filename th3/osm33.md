@@ -1,5 +1,13 @@
 # Journal de bord d'osm33
 
+## 2025-03-10 - cquest
+
+Plus d'accès SSH sur le serveur, mais ping ok
+
+FAIT:
+- Reboot fait depuis le KVM de management
+- Kernel mis à jour et second reboot
+
 ## 2024-12-12 - cquest
 
 Mise à jour proxmox 8.3.1 faite et reboot.
