@@ -1,5 +1,10 @@
 # Journal de bord d'osm32
 
+## 2025-06-24 - cquest
+
+Création d'un "faux" pool nvme-zfs à l'aide d'un fichier de 2To alloué sur /backups
+Ceci va permettre aux repliques de se faire, en particulier celles sur osm34 où les données umap se trouvent désormais sur nvme-zfs.
+
 ## 2024-12-12 - cquest
 
 osm12 était freezé depuis plusieurs jours.
