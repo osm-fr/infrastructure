@@ -1,5 +1,14 @@
 # Journal de bord d'osm33
 
+## 2025-09-13 - cquest
+
+Mise à jour des conteneurs du rendu FR:
+- osm2pgsql: Ubuntu 20.04 > 22.04 et Postgresql 16 > 17
+- renderd: Ubuntu 20.04 > 24.04
+- expired: Ubuntu 20.04 > 22.04
+
+Diminution du temps de rendu des metatiles + du CPU utilisé.
+
 ## 2025-03-10 - cquest
 
 Plus d'accès SSH sur le serveur, mais ping ok
