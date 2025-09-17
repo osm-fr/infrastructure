@@ -1,5 +1,9 @@
 # Journal de bord d'osm51 (serveurs de backup DC1)
 
+## 2025-09-16
+
+Mise à jour Proxmox 9
+
 ## 2025-07-05
 
 Configuration ARC ZFS à 16Go
