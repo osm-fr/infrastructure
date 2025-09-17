@@ -1,5 +1,9 @@
 # Journal de bord d'osm50 (serveurs de backup DC1)
 
+## 2025-09-16
+
+Mise à jour Proxmox 9
+
 ## 2025-05-06
 
 Installation du serveur dans la baie:
