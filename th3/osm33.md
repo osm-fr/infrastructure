@@ -1,5 +1,17 @@
 # Journal de bord d'osm33
 
+## 2025-11-19 - cquest
+
+Intervention à TH3 pour remettre un SSD de remplacement.
+C'est un Samsung 860 Pro d'1To que j'avais sous la main, installé en face avant (format 2.5")
+- Proxmox 8.4 installé dessus,
+- noeud osm33 remis dans le cluster (https://forum.proxmox.com/threads/reinstall-node-in-cluster.64281/)
+- conteneur osm2pgsql relancé... mais pas ceux du rendu FR pour le moment
+
+## 2025-09-15 - cquest
+
+Le SSD SATA est HS, le serveur bloque au redémarrage... je l'ai éteint et mis en place une redirection du rendu FR vers le rendu OSMF.
+
 ## 2025-09-13 - cquest
 
 Mise à jour des conteneurs du rendu FR:
