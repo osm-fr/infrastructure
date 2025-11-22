@@ -1,5 +1,9 @@
 # Journal de bord d'osm33
 
+## 2025-11-21 - cquest
+
+Rendu FR relancé, ainsi que le conteneur d'expiration... tout est à nouveau de retour à la normale.
+
 ## 2025-11-19 - cquest
 
 Intervention à TH3 pour remettre un SSD de remplacement.
