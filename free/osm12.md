@@ -8,7 +8,7 @@ Déplacement à DC1:
 
 Problème hardware, pas étonnant, ce serveur tourne H24 depuis 12 ans !
 
-Je l'ai ramené chez moi pour voir ce qu'on peut encore en tirer. Il y a au moins les 2 SSD NVMe de 4To à réutiliser.
+Je l'ai ramené chez moi pour voir ce qu'on peut encore en tirer. Il y a au moins les 2 SSD NVMe de 4To à réutiliser (désormais sur osm51/52)
 
 Mise à jour du wiki faite.
 
