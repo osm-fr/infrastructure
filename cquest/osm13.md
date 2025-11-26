@@ -19,3 +19,8 @@ SSD 4To NVMe à commander...
 ## 2023-11-30 - cquest
 
 Base PG migrée sur le SSD SATA, les rendus sont de retour.
+
+## 2025-11-26 - cquest
+
+Remplacement du SSD SATA par le NVMe (zfs attach, resilver du mirroir, zfs detach)
+Mise à jour en Proxmox 9
