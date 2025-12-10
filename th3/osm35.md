@@ -1,5 +1,9 @@
 # Journal de bord d'osm35
 
+## 2025-12-10 - cquest
+
+Mise à jour en proxmox 9
+
 ## 2025-06-22 - cquest
 
 Problèmes sur le SSD NVMe qui lorsqu'il est trop sollicité en écriture fait rebooter le serveur.
