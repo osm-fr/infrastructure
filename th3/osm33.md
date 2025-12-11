@@ -1,5 +1,9 @@
 # Journal de bord d'osm33
 
+## 2025-12-10 - cquest
+
+Mise à jour en Proxmox 9
+
 ## 2025-11-21 - cquest
 
 Rendu FR relancé, ainsi que le conteneur d'expiration... tout est à nouveau de retour à la normale.
