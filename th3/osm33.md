@@ -1,5 +1,11 @@
 # Journal de bord d'osm33
 
+## 2025-12-15 - cquest
+
+Test config NUMA pour que le CT osm2pgsql-th3 utilise un CPU et renderd-th3 utilise l'autre
+- `lxc.cgroup2.cpuset.cpus: "0-11,24-35"` ajouté à /etc/pve/lxc/100.conf (osm2pgsql)
+- `lxc.cgroup2.cpuset.cpus: "12-23,36-47"` ajouté à /etc/pve/lxc/102.conf (renderd)
+
 ## 2025-12-10 - cquest
 
 Mise à jour en Proxmox 9
