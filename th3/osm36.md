@@ -1,5 +1,11 @@
 # Journal de bord d'osm36
 
+## 2025-12-18 - cquest
+
+Ajout d'un radiateur sur le SSD NVMe
+Ajout d'un SSD SATA (2.5") en face avant
+Installation de Proxmox 9 et retour dans le cluster.
+
 ## 2024-01-22 - jocelyn
 
 Reboot du host à nouveau après nouvel import complet du planet. Le log de l'import en était à:
