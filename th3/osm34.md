@@ -1,5 +1,14 @@
 # Journal de bord d'osm34
 
+## 2025-12-19 - cquest
+
+Migration de rpool sur le nouveau SSD
+
+Comme le nouveau SSD est plus petit que le précédent voici la manip:
+- ajout du nouveau SSD au pool avec `zpool add`
+- suppression de l'ancien avec `zpool remove`
+- ZFS recopie les données du vdev qu'on retire sur l'autre vdev :)
+
 ## 2025-12-18 - cquest
 
 Ajout d'un SSD SATA 2.5" en face avant
