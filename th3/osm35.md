@@ -1,5 +1,11 @@
 # Journal de bord d'osm35
 
+## 2025-12-18 - cquest
+
+Ajout de radiateurs sur les 2 SSD M.2 (SATA et NVMe)
+Suppression de l'équerre PCI, pour ne pas bloquer le flux d'air sortant
+-> baisse notable de la température, plus de reboot intempestifs constatés
+
 ## 2025-12-10 - cquest
 
 Mise à jour en proxmox 9
