@@ -1,5 +1,9 @@
 # Journal de bord d'osm34
 
+## 2025-12-25 - cquest
+
+Ajout de l'ancien SSD en mirroir sur rpool
+
 ## 2025-12-19 - cquest
 
 Migration de rpool sur le nouveau SSD
