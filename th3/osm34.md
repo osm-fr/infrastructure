@@ -1,5 +1,10 @@
 # Journal de bord d'osm34
 
+## 2025-12-18 - cquest
+
+Ajout d'un SSD SATA 2.5" en face avant
+Migration de rpool sur ce nouveau SSD.
+
 ## 2025-06-21 - cquest
 
 Erreurs en lecture sur le SSD SATA (sda).
