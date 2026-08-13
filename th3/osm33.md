@@ -4,6 +4,7 @@
 
 Configuration des hugepages pour être allouées sur le CPU0 pour osm2pgsql
 - script /root/hugepages qui stoppe le conteneur, alloue les pages et redémarre le conteneur
+- passage de 32 à 64Go de shared_buffers
 
 ## 2025-12-15 - cquest
 
