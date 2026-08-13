@@ -1,5 +1,10 @@
 # Journal de bord d'osm33
 
+## 2026-08-13 - cquest
+
+Configuration des hugepages pour être allouées sur le CPU0 pour osm2pgsql
+- script /root/hugepages qui stoppe le conteneur, alloue les pages et redémarre le conteneur
+
 ## 2025-12-15 - cquest
 
 Test config NUMA pour que le CT osm2pgsql-th3 utilise un CPU et renderd-th3 utilise l'autre
