@@ -4,7 +4,7 @@
 
 ### osm38 / osm40
 
-Serveurs sans SSD, destiné aux CT qui n'ont pas besoin de SSD car générant peu d'I/O (sans base de données importantes):
+Serveurs **sans SSD**, destiné aux CT qui n'ont pas besoin de SSD car générant peu d'I/O (sans base de données importantes):
 - site web
 - CRM
 - nextcloud
@@ -16,7 +16,7 @@ Serveurs sans SSD, destiné aux CT qui n'ont pas besoin de SSD car générant pe
 
 ### osm41/osm42
 
-Serveurs avec SSD NVMe, destiné aux CT contenant des bases de données nécessitant des I/O rapides où à fort trafic:
+Serveurs **avec SSD NVMe**, destiné aux CT contenant des bases de données nécessitant des I/O rapides où à fort trafic:
 - osmose
 - comaps
 
@@ -24,7 +24,7 @@ Serveurs avec SSD NVMe, destiné aux CT contenant des bases de données nécessi
 
 ### osm39
 
-Serveur contenant 2 GPU, utilisé par le backend d'API de floutage de Panoramax
+Serveur **contenant 2 GPU**, utilisé par le backend d'API de floutage de Panoramax
 
 ### osm43
 
