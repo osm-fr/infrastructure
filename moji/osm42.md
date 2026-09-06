@@ -1,5 +1,13 @@
 # Journal de bord d'osm42
 
+## 2025-09-06 - cquest
+
+Mise à jour :
+- Proxmox 9 / Debian 13
+- BIOS 2.19.0
+- iDrac 2.86.86.86
+
+
 ## 2025-06-25 - jocelyn
 
 Remplissage du zfs root, impactant peertube, et le host lui-même, plus accessible sur proxmox.
