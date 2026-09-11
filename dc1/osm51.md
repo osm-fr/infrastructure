@@ -1,5 +1,12 @@
 # Journal de bord d'osm51 (serveurs de backup DC1)
 
+## 2026-09-11
+
+Ajout du rendu cyclosm:
+- renderd sur osm166
+- base PG avec les courbes de niveau sur osm183
+- base osm2pgsql sur osm 101
+
 ## 2025-09-16
 
 Mise à jour Proxmox 9
