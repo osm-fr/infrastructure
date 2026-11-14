@@ -1,5 +1,9 @@
 # Journal de bord d'osm32
 
+## 2026-11-14 - cquest
+
+Panne du disque sdj (https://github.com/osm-fr/infrastructure/issues/670), perte de redondance sur rpool
+
 ## 2025-06-24 - cquest
 
 Création d'un "faux" pool nvme-zfs à l'aide d'un fichier de 2To alloué sur /backups
